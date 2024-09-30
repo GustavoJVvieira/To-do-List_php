@@ -1,0 +1,185 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serifs;
+    background-color: #f7f7f7;
+    color: #070707;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #444;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium';
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza os inputs horizontalmente */
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="date"] {
+    padding: 10px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+    margin-bottom: 10px; /* Espaço entre os elementos */
+    border: 1px solid #ccc; /* Cor da borda */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para profundidade */
+    width: 500px; /* Largura dos inputs */
+    transition: all 0.3s ease; /* Animação suave */
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus {
+    border-color: #28a745; /* Mudança de cor na focagem */
+    box-shadow: 0 0 5px rgba(40, 167, 69, 0.5); /* Sombra ao focar */
+}
+
+button {
+    padding: 10px; /* Diminuir o padding */
+    width: 80px; /* Diminuir a largura do botão */
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; /* Tamanho da fonte do botão */
+    transition: background-color 0.3s; /* Efeito ao passar o mouse */
+}
+
+button:hover {
+    background-color: #218838; /* Mudança de cor ao passar o mouse */
+}
+
+.button-container {
+    text-align: left; 
+}
+
+
+button {
+    padding: 5px; /* Diminuir o padding */
+    width: 80px; /* Diminuir a largura do botão */
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; /* Diminuir o tamanho da fonte */
+    align-self: flex-end; /* Alinha o botão à direita */
+    margin-right: 550px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.lembretes-containers {
+    min-width: 1000px; 
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: wrap;
+}
+
+.lembretes-atrasados,
+.lembretes-hoje,
+.lembretes-futuro {
+    flex: 1; 
+    margin: 10px; 
+    min-width: 200px; 
+    min-height: 300px;
+    background-color: #f9f9f9; 
+    padding: 10px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
+}
+
+.actions {
+    display: flex;
+    justify-content: flex-end; 
+    margin-right: 10px; 
+}
+
+.actions a {
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    padding: 7px;
+    background-color: #0e1ac5;
+    color: #fff;
+    border-radius: 7px;
+    margin: 5px;
+}
+
+.actions .edit:hover {
+    color: #121213;
+}
+
+.actions .delete:hover {
+    color: #121213;
+}
+
+.back-btn {
+    text-align: center;
+    margin-top: 50px;
+    text-decoration: none;
+    padding: 7px;
+    background-color: #0e1ac5;
+    color: #fff;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.back-btn:hover {
+    background-color: #24099e;
+    
+}
+
+.lembretes-containers {
+    background-color: #fff;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: right;
+}
+
+ul, ol {
+    list-style-type: none; 
+    padding-left: 0; 
+    margin-left: 0; 
+}
+
+.data-lembrete {
+    text-align: left; 
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.novo_lembrete {
+    margin-bottom: 10px;
+}
+
+.lembrete-item {
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: left; 
+}
