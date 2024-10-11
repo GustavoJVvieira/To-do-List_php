@@ -1,9 +1,9 @@
-<h1 align="center">🏄 Projeto Processo Seletivo dti 🏄</h1>
+<h1 align="center">🏄 Lista de Lembretes PHP 🏄</h1>
 
 
 
 <div align="center">
-  <strong>🚀 Projeto em PHP de Lembretes desenvolvido para Processo Seletivo dti 📚</strong>
+  <strong>🚀 Projeto em PHP de Lembretes  📚</strong>
 </div>
 
 <div align="center">
